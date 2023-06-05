@@ -1,0 +1,49 @@
+/* Definição das variaveis do css*/
+:root {
+    --primary-color: rgb(255, 0, 0);
+    --secondary-color: rgb(0, 255, 64);
+    --tertiary-color: rgb(0 0 225);
+    --back-color:hsl(0% 4% 59%);
+}
+
+/* Resetar as configuraçoes do navetador */
+* {
+    background: var(--back-color);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+main {
+    display: flex;
+    width:70%;
+    margin:0 auto;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.box {
+    width: 400px;
+    height: 400px;
+    border: 1px solid;
+    margin-bottom: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#redy {
+    background: var(--primary-color);
+}
+
+#greenly {
+    background: var(--secondary-color);
+}
+
+#bluegy {
+    background: var(--tertiary-color);
+}
